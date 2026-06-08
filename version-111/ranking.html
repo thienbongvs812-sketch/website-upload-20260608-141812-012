@@ -1,0 +1,2470 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热播榜 - 国产影视</title>
+    <meta name="description" content="按热度浏览近期热门电影、剧集与高清影视内容。">
+    <meta name="keywords" content="国产影视,热播榜,热门电影,热门电视剧,免费在线观看">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="国产影视">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">国产影视</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a> <a class="nav-link" href="./categories.html">分类</a> <a class="nav-link active" href="./ranking.html">热播榜</a> <a class="nav-link" href="./search.html">检索</a>
+        </nav>
+        <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+        <a class="nav-link" href="./index.html">首页</a> <a class="nav-link" href="./categories.html">分类</a> <a class="nav-link active" href="./ranking.html">热播榜</a> <a class="nav-link" href="./search.html">检索</a>
+    </nav>
+</header>
+<main>
+    <section class="page-hero slim-hero ranking-hero">
+        <p class="eyebrow">Hot List</p>
+        <h1>热播榜</h1>
+        <p>根据影片热度、年份与站内推荐进行排序，快速进入近期高热影视内容。</p>
+    </section>
+    <section class="content-section">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow dark">Ranking</p>
+                <h2>高热推荐</h2>
+            </div>
+            <a href="./search.html">影片检索</a>
+        </div>
+        <section class="filter-panel" data-filter-panel>
+    <div class="search-field">
+        <label for="movie-search">影片检索</label>
+        <input id="movie-search" type="search" placeholder="输入片名、地区、类型或标签" data-search-input>
+    </div>
+    <div class="filter-fields">
+        <label>
+            <span>地区</span>
+            <select data-filter-region>
+                <option value="">全部地区</option>
+                    <option value="中东 / 美国">中东 / 美国</option>
+                    <option value="中国">中国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="中国内地/亚洲">中国内地/亚洲</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="中国大陆 / 中国香港">中国大陆 / 中国香港</option>
+                    <option value="中国大陆 / 俄罗斯">中国大陆 / 俄罗斯</option>
+                    <option value="中国大陆 / 法国">中国大陆 / 法国</option>
+                    <option value="中国大陆 / 香港">中国大陆 / 香港</option>
+                    <option value="中国大陆/台湾">中国大陆/台湾</option>
+                    <option value="中国澳门">中国澳门</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option>
+                    <option value="中国香港 / 英国">中国香港 / 英国</option>
+                    <option value="中国香港 / 韩国">中国香港 / 韩国</option>
+                    <option value="中国香港 / 马来西亚">中国香港 / 马来西亚</option>
+                    <option value="中国香港, 中国大陆">中国香港, 中国大陆</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰 / 土耳其">乌克兰 / 土耳其</option>
+                    <option value="亚美尼亚">亚美尼亚</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="伊朗 / 法国">伊朗 / 法国</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="俄罗斯 / 乌克兰">俄罗斯 / 乌克兰</option>
+                    <option value="俄罗斯 / 美国">俄罗斯 / 美国</option>
+                    <option value="俄罗斯/德国/美国">俄罗斯/德国/美国</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="加拿大 / 埃及">加拿大 / 埃及</option>
+                    <option value="南非">南非</option>
+                    <option value="印尼">印尼</option>
+                    <option value="印度">印度</option>
+                    <option value="叙利亚/法国">叙利亚/法国</option>
+                    <option value="古巴">古巴</option>
+                    <option value="古巴 / 西班牙">古巴 / 西班牙</option>
+                    <option value="台湾">台湾</option>
+                    <option value="哥伦比亚">哥伦比亚</option>
+                    <option value="土耳其">土耳其</option>
+                    <option value="土耳其 / 法国">土耳其 / 法国</option>
+                    <option value="土耳其/法国">土耳其/法国</option>
+                    <option value="埃塞俄比亚">埃塞俄比亚</option>
+                    <option value="墨西哥">墨西哥</option>
+                    <option value="墨西哥 / 美国">墨西哥 / 美国</option>
+                    <option value="大陆">大陆</option>
+                    <option value="奥地利">奥地利</option>
+                    <option value="巴勒斯坦">巴勒斯坦</option>
+                    <option value="德国">德国</option>
+                    <option value="德国 / 奥地利">德国 / 奥地利</option>
+                    <option value="德国/英国">德国/英国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="意大利 / 法国">意大利 / 法国</option>
+                    <option value="意大利 / 美国">意大利 / 美国</option>
+                    <option value="意大利/法国">意大利/法国</option>
+                    <option value="挪威">挪威</option>
+                    <option value="捷克">捷克</option>
+                    <option value="新西兰/美国">新西兰/美国</option>
+                    <option value="日本">日本</option>
+                    <option value="日本 / 美国">日本 / 美国</option>
+                    <option value="日本 / 香港">日本 / 香港</option>
+                    <option value="日本/台湾">日本/台湾</option>
+                    <option value="日本/美国">日本/美国</option>
+                    <option value="智利">智利</option>
+                    <option value="梵蒂冈">梵蒂冈</option>
+                    <option value="欧洲">欧洲</option>
+                    <option value="欧美">欧美</option>
+                    <option value="欧美/合拍">欧美/合拍</option>
+                    <option value="欧美/新西兰">欧美/新西兰</option>
+                    <option value="比利时 / 法国">比利时 / 法国</option>
+                    <option value="沙特阿拉伯 / 阿联酋">沙特阿拉伯 / 阿联酋</option>
+                    <option value="法国">法国</option>
+                    <option value="法国 / 中国大陆">法国 / 中国大陆</option>
+                    <option value="法国 / 奥地利">法国 / 奥地利</option>
+                    <option value="法国 / 巴西">法国 / 巴西</option>
+                    <option value="法国 / 德国">法国 / 德国</option>
+                    <option value="法国 / 意大利">法国 / 意大利</option>
+                    <option value="法国 / 比利时">法国 / 比利时</option>
+                    <option value="法国 / 美国">法国 / 美国</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+            </select>
+        </label>
+        <label>
+            <span>类型</span>
+            <select data-filter-type>
+                <option value="">全部类型</option>
+                    <option value="CG电影">CG电影</option>
+                    <option value="Movie">Movie</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV series">TV series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV剧集">TV剧集</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="TV系列">TV系列</option>
+                    <option value="剧集">剧集</option>
+                    <option value="剧集 (10集)">剧集 (10集)</option>
+                    <option value="剧集 (共23集)">剧集 (共23集)</option>
+                    <option value="剧集 / 动画">剧集 / 动画</option>
+                    <option value="剧集 / 真人秀（伪纪录片）">剧集 / 真人秀（伪纪录片）</option>
+                    <option value="剧集 / 短剧">剧集 / 短剧</option>
+                    <option value="剧集 / 纪录片">剧集 / 纪录片</option>
+                    <option value="剧集 / 综艺">剧集 / 综艺</option>
+                    <option value="剧集 / 网络电影">剧集 / 网络电影</option>
+                    <option value="剧集 / 限定剧">剧集 / 限定剧</option>
+                    <option value="剧集 喜剧, 剧情">剧集 喜剧, 剧情</option>
+                    <option value="动漫">动漫</option>
+                    <option value="动画">动画</option>
+                    <option value="动画 / 剧集">动画 / 剧集</option>
+                    <option value="动画 / 电视剧">动画 / 电视剧</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="动画剧集 (11集)">动画剧集 (11集)</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="恐怖片">恐怖片</option>
+                    <option value="恐怖电影">恐怖电影</option>
+                    <option value="日剧">日剧</option>
+                    <option value="电影">电影</option>
+                    <option value="电影 / 动画">电影 / 动画</option>
+                    <option value="电影 / 短片">电影 / 短片</option>
+                    <option value="电影 / 纪录">电影 / 纪录</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/恐怖惊悚">电影/恐怖惊悚</option>
+                    <option value="电影/纪录">电影/纪录</option>
+                    <option value="电影（网络）">电影（网络）</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="电视剧 (12集)">电视剧 (12集)</option>
+                    <option value="电视剧 (30集)">电视剧 (30集)</option>
+                    <option value="电视剧 (剧集)">电视剧 (剧集)</option>
+                    <option value="电视剧 (短剧)">电视剧 (短剧)</option>
+                    <option value="电视剧 / 真人秀 / 剧情">电视剧 / 真人秀 / 剧情</option>
+                    <option value="电视剧(迷你剧)">电视剧(迷你剧)</option>
+                    <option value="电视剧/网剧">电视剧/网剧</option>
+                    <option value="电视剧集">电视剧集</option>
+                    <option value="电视剧（单集故事）">电视剧（单集故事）</option>
+                    <option value="短剧">短剧</option>
+                    <option value="短片">短片</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="综艺">综艺</option>
+                    <option value="综艺 / 专场">综艺 / 专场</option>
+                    <option value="综艺 / 特别节目">综艺 / 特别节目</option>
+                    <option value="综艺/音乐会">综艺/音乐会</option>
+                    <option value="综艺节目">综艺节目</option>
+                    <option value="网剧">网剧</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="脱口秀/喜剧特辑">脱口秀/喜剧特辑</option>
+                    <option value="迷你剧">迷你剧</option>
+            </select>
+        </label>
+        <label>
+            <span>年份</span>
+            <select data-filter-year>
+                <option value="">全部年份</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                    <option value="1988">1988</option>
+                    <option value="1987">1987</option>
+                    <option value="1986">1986</option>
+                    <option value="1985">1985</option>
+                    <option value="1984">1984</option>
+                    <option value="1983">1983</option>
+                    <option value="1982">1982</option>
+                    <option value="1981">1981</option>
+                    <option value="1979">1979</option>
+                    <option value="1978">1978</option>
+                    <option value="1977">1977</option>
+                    <option value="1976">1976</option>
+                    <option value="1975">1975</option>
+                    <option value="1974">1974</option>
+                    <option value="1973">1973</option>
+                    <option value="1971">1971</option>
+                    <option value="1970">1970</option>
+                    <option value="1969">1969</option>
+                    <option value="1968">1968</option>
+                    <option value="1967">1967</option>
+                    <option value="1964">1964</option>
+                    <option value="1963">1963</option>
+                    <option value="1962">1962</option>
+                    <option value="1961">1961</option>
+                    <option value="1960">1960</option>
+                    <option value="1954">1954</option>
+                    <option value="1952">1952</option>
+                    <option value="1943">1943</option>
+            </select>
+        </label>
+    </div>
+</section>
+        <div class="movie-grid" data-movie-list>
+            <article class="movie-card" data-title="魔法师的第五个冬天" data-region="英国" data-type="电影" data-year="2025" data-genre="奇幻 / 剧情" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1724.html" aria-label="观看魔法师的第五个冬天">
+        <span class="poster-shell">
+            <img src="./74.jpg" alt="魔法师的第五个冬天" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">01</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1724.html">魔法师的第五个冬天</a>
+        <p class="movie-meta">2025 · 英国 · 电影</p>
+        <p class="movie-desc">魔法师用记忆换来小镇第五年的冬天，但这一次，他忘了自己为何要这么做。</p>
+        <div class="movie-card-foot">
+            <span>奇幻 / 剧情</span>
+            <a href="./movie/movie-1724.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="我老婆系赌圣" data-region="中国香港" data-type="电影" data-year="2025" data-genre="喜剧 / 爱情 / 动作" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0095.html" aria-label="观看我老婆系赌圣">
+        <span class="poster-shell">
+            <img src="./95.jpg" alt="我老婆系赌圣" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">02</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0095.html">我老婆系赌圣</a>
+        <p class="movie-meta">2025 · 中国香港 · 电影</p>
+        <p class="movie-desc">废柴丈夫发现温柔贤惠的妻子一摸麻将就变另一个人，还是当年横扫拉斯维加斯的赌坛女王。</p>
+        <div class="movie-card-foot">
+            <span>喜剧 / 爱情 / 动作</span>
+            <a href="./movie/movie-0095.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="醉画仙" data-region="韩国" data-type="电影" data-year="2024" data-genre="传记 / 古装 / 艺术" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-1181.html" aria-label="观看醉画仙">
+        <span class="poster-shell">
+            <img src="./131.jpg" alt="醉画仙" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">03</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1181.html">醉画仙</a>
+        <p class="movie-meta">2024 · 韩国 · 电影</p>
+        <p class="movie-desc">朝鲜王朝末年，一代狂才画师张承业在画笔与酒杯中，对抗整个动荡的时代。</p>
+        <div class="movie-card-foot">
+            <span>传记 / 古装 / 艺术</span>
+            <a href="./movie/movie-1181.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="乔治男孩" data-region="英国" data-type="电影" data-year="2023" data-genre="传记 / 音乐" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-0855.html" aria-label="观看乔治男孩">
+        <span class="poster-shell">
+            <img src="./105.jpg" alt="乔治男孩" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">04</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0855.html">乔治男孩</a>
+        <p class="movie-meta">2023 · 英国 · 电影</p>
+        <p class="movie-desc">一个在伦敦郊区被霸凌的男孩，如何成为定义整个80年代流行文化的符号。</p>
+        <div class="movie-card-foot">
+            <span>传记 / 音乐</span>
+            <a href="./movie/movie-0855.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="喀布尔之燕" data-region="阿富汗/法国" data-type="电影" data-year="2022" data-genre="战争剧情" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-0312.html" aria-label="观看喀布尔之燕">
+        <span class="poster-shell">
+            <img src="./12.jpg" alt="喀布尔之燕" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">05</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0312.html">喀布尔之燕</a>
+        <p class="movie-meta">2022 · 阿富汗/法国 · 电影</p>
+        <p class="movie-desc">塔利班统治下的喀布尔，两名女性用最隐秘的方式——在罩袍里缝进诗歌，传递着不可能的希望。</p>
+        <div class="movie-card-foot">
+            <span>战争剧情</span>
+            <a href="./movie/movie-0312.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="爱欲流离" data-region="法国/德国" data-type="电影" data-year="2021" data-genre="剧情/爱情/情色" data-category="欧美大片">
+    <a class="poster-link" href="./movie/movie-1941.html" aria-label="观看爱欲流离">
+        <span class="poster-shell">
+            <img src="./141.jpg" alt="爱欲流离" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">06</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1941.html">爱欲流离</a>
+        <p class="movie-meta">2021 · 法国/德国 · 电影</p>
+        <p class="movie-desc">二战废墟上，一名法国前战俘与德国舞女之间的情欲纠缠，揭开了一段比战争更残忍的背叛。</p>
+        <div class="movie-card-foot">
+            <span>剧情/爱情/情色</span>
+            <a href="./movie/movie-1941.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="大君主" data-region="美国/英国" data-type="电影" data-year="2018" data-genre="动作， horror，战争" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-1398.html" aria-label="观看大君主">
+        <span class="poster-shell">
+            <img src="./48.jpg" alt="大君主" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">07</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1398.html">大君主</a>
+        <p class="movie-meta">2018 · 美国/英国 · 电影</p>
+        <p class="movie-desc">诺曼底登陆前夕，一队美国伞兵坠落在纳粹秘密实验室附近，发现希特勒正在制造不死军团。</p>
+        <div class="movie-card-foot">
+            <span>动作， horror，战争</span>
+            <a href="./movie/movie-1398.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="碧云天" data-region="中国台湾" data-type="电影" data-year="1976" data-genre="爱情，剧情" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0638.html" aria-label="观看碧云天">
+        <span class="poster-shell">
+            <img src="./38.jpg" alt="碧云天" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">08</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0638.html">碧云天</a>
+        <p class="movie-meta">1976 · 中国台湾 · 电影</p>
+        <p class="movie-desc">一对情同姐妹的闺蜜，因同一个才华横溢的男人，在半生岁月中写下一首爱恨交织的悲歌。</p>
+        <div class="movie-card-foot">
+            <span>爱情，剧情</span>
+            <a href="./movie/movie-0638.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="爱欲情狂" data-region="西班牙" data-type="剧集" data-year="2025" data-genre="爱情, 惊悚, 剧情" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1615.html" aria-label="观看爱欲情狂">
+        <span class="poster-shell">
+            <img src="./115.jpg" alt="爱欲情狂" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">09</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1615.html">爱欲情狂</a>
+        <p class="movie-meta">2025 · 西班牙 · 剧集</p>
+        <p class="movie-desc">一家地下诊所提供“删除前任记忆”服务，但每个接受手术的人都会疯狂爱上第一个看到的陌生人。</p>
+        <div class="movie-card-foot">
+            <span>爱情, 惊悚, 剧情</span>
+            <a href="./movie/movie-1615.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="女同志吸血鬼杀手" data-region="英国" data-type="电影" data-year="2024" data-genre="喜剧, 恐怖, 酷儿" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-0529.html" aria-label="观看女同志吸血鬼杀手">
+        <span class="poster-shell">
+            <img src="./79.jpg" alt="女同志吸血鬼杀手" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">10</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0529.html">女同志吸血鬼杀手</a>
+        <p class="movie-meta">2024 · 英国 · 电影</p>
+        <p class="movie-desc">女同吸血鬼军团占领了威尔士乡村，一群废柴大叔硬着头皮上演“美男计”反杀。</p>
+        <div class="movie-card-foot">
+            <span>喜剧, 恐怖, 酷儿</span>
+            <a href="./movie/movie-0529.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="阿比盖尔" data-region="英国" data-type="电影" data-year="2019" data-genre="悬疑，惊悚，剧情" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1072.html" aria-label="观看阿比盖尔">
+        <span class="poster-shell">
+            <img src="./22.jpg" alt="阿比盖尔" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">11</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1072.html">阿比盖尔</a>
+        <p class="movie-meta">2019 · 英国 · 电影</p>
+        <p class="movie-desc">孤儿阿比盖尔被送到一座偏远庄园，却发现庄园里关着一个不可告人的“怪物”。</p>
+        <div class="movie-card-foot">
+            <span>悬疑，惊悚，剧情</span>
+            <a href="./movie/movie-1072.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="婴儿制造者" data-region="美国" data-type="电影" data-year="2025" data-genre="科幻, 惊悚, 伦理" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-0203.html" aria-label="观看婴儿制造者">
+        <span class="poster-shell">
+            <img src="./53.jpg" alt="婴儿制造者" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">12</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0203.html">婴儿制造者</a>
+        <p class="movie-meta">2025 · 美国 · 电影</p>
+        <p class="movie-desc">一对不孕夫妇买了一个“完美婴儿”，却发现孩子出厂时被植入了杀手人格。</p>
+        <div class="movie-card-foot">
+            <span>科幻, 惊悚, 伦理</span>
+            <a href="./movie/movie-0203.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="白领公寓" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="都市职场爱情" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1832.html" aria-label="观看白领公寓">
+        <span class="poster-shell">
+            <img src="./32.jpg" alt="白领公寓" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">13</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1832.html">白领公寓</a>
+        <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">两个性格迥异的白领被迫合租一套公司配给的公寓，从死对头变成彼此最坚实的依靠。</p>
+        <div class="movie-card-foot">
+            <span>都市职场爱情</span>
+            <a href="./movie/movie-1832.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="独立纵队2" data-region="中国" data-type="网络电影" data-year="2020" data-genre="动作 / 战争 / 喜剧" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-0746.html" aria-label="观看独立纵队2">
+        <span class="poster-shell">
+            <img src="./146.jpg" alt="独立纵队2" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">14</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0746.html">独立纵队2</a>
+        <p class="movie-meta">2020 · 中国 · 网络电影</p>
+        <p class="movie-desc">三个曾经的特种兵退役后成了乡村快递员，却意外卷入一场惊天间谍战。</p>
+        <div class="movie-card-foot">
+            <span>动作 / 战争 / 喜剧</span>
+            <a href="./movie/movie-0746.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="甜蜜蜜2007" data-region="中国内地" data-type="电视剧" data-year="2007" data-genre="爱情, 剧情" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1289.html" aria-label="观看甜蜜蜜2007">
+        <span class="poster-shell">
+            <img src="./89.jpg" alt="甜蜜蜜2007" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">15</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1289.html">甜蜜蜜2007</a>
+        <p class="movie-meta">2007 · 中国内地 · 电视剧</p>
+        <p class="movie-desc">2007年的上海，一对假结婚的男女在同居生活中假戏真做，却翻出了二十年前的旧情书。</p>
+        <div class="movie-card-foot">
+            <span>爱情, 剧情</span>
+            <a href="./movie/movie-1289.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="青春之马" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="剧情 / 运动 / 青春" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1506.html" aria-label="观看青春之马">
+        <span class="poster-shell">
+            <img src="./6.jpg" alt="青春之马" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">16</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1506.html">青春之马</a>
+        <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+        <p class="movie-desc">内蒙古草原上的高考落榜生，为了不回乡放羊，加入了一支由混混、会计和厨师组成的“疯子马球队”。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 运动 / 青春</span>
+            <a href="./movie/movie-1506.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="第一课" data-region="中国大陆" data-type="电影" data-year="2023" data-genre="剧情 / 运动 / 青春" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0420.html" aria-label="观看第一课">
+        <span class="poster-shell">
+            <img src="./120.jpg" alt="第一课" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">17</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0420.html">第一课</a>
+        <p class="movie-meta">2023 · 中国大陆 · 电影</p>
+        <p class="movie-desc">顶级电竞选手因伤退役，回到家乡中学组建电竞社，却被家长和教导主任集体针对。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 运动 / 青春</span>
+            <a href="./movie/movie-0420.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="剑侠唐璜" data-region="中国香港" data-type="电影" data-year="1995" data-genre="动作 / 武侠 / 喜剧" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0963.html" aria-label="观看剑侠唐璜">
+        <span class="poster-shell">
+            <img src="./63.jpg" alt="剑侠唐璜" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">18</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0963.html">剑侠唐璜</a>
+        <p class="movie-meta">1995 · 中国香港 · 电影</p>
+        <p class="movie-desc">江湖第一采花大盗唐璜，竟是个只劫财不劫色的正义侠客。</p>
+        <div class="movie-card-foot">
+            <span>动作 / 武侠 / 喜剧</span>
+            <a href="./movie/movie-0963.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="谁是老大" data-region="中国台湾" data-type="电影" data-year="2024" data-genre="喜剧 / 犯罪" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1723.html" aria-label="观看谁是老大">
+        <span class="poster-shell">
+            <img src="./73.jpg" alt="谁是老大" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">19</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1723.html">谁是老大</a>
+        <p class="movie-meta">2024 · 中国台湾 · 电影</p>
+        <p class="movie-desc">一个外卖员被误认为失踪二十年的黑帮老大，整座城市的地下秩序因此重新洗牌。</p>
+        <div class="movie-card-foot">
+            <span>喜剧 / 犯罪</span>
+            <a href="./movie/movie-1723.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="勇气" data-region="中国大陆" data-type="电视剧" data-year="2024" data-genre="剧情 / 犯罪" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1180.html" aria-label="观看勇气">
+        <span class="poster-shell">
+            <img src="./130.jpg" alt="勇气" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">20</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1180.html">勇气</a>
+        <p class="movie-meta">2024 · 中国大陆 · 电视剧</p>
+        <p class="movie-desc">丢了孩子的女警辞职寻亲十年，当她找到女儿时，女儿正叫买家为“妈妈”。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 犯罪</span>
+            <a href="./movie/movie-1180.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="所罗门的伪证前篇：事件" data-region="日本" data-type="电影" data-year="2024" data-genre="悬疑剧情" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-0637.html" aria-label="观看所罗门的伪证前篇：事件">
+        <span class="poster-shell">
+            <img src="./37.jpg" alt="所罗门的伪证前篇：事件" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">21</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0637.html">所罗门的伪证前篇：事件</a>
+        <p class="movie-meta">2024 · 日本 · 电影</p>
+        <p class="movie-desc">圣诞夜，一名国中生离奇坠楼，学校与警方试图以“意外”草草结案，学生们却决定发起校内审判。</p>
+        <div class="movie-card-foot">
+            <span>悬疑剧情</span>
+            <a href="./movie/movie-0637.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="女人河" data-region="中国大陆" data-type="电影" data-year="2028" data-genre="剧情 / 女性 / 乡村" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0854.html" aria-label="观看女人河">
+        <span class="poster-shell">
+            <img src="./104.jpg" alt="女人河" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">22</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0854.html">女人河</a>
+        <p class="movie-meta">2028 · 中国大陆 · 电影</p>
+        <p class="movie-desc">长江边的三代女人，分别经历了溺婴、独生和丁克，她们是河流也对抗河流。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 女性 / 乡村</span>
+            <a href="./movie/movie-0854.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="我太受欢迎了该怎么办" data-region="日本" data-type="动画剧集" data-year="2025" data-genre="喜剧 / 爱情 / 校园 / 奇幻" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1940.html" aria-label="观看我太受欢迎了该怎么办">
+        <span class="poster-shell">
+            <img src="./140.jpg" alt="我太受欢迎了该怎么办" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">23</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1940.html">我太受欢迎了该怎么办</a>
+        <p class="movie-meta">2025 · 日本 · 动画剧集</p>
+        <p class="movie-desc">沉迷BL的腐女因偶像去世暴瘦，醒来后成了全校男神争抢的对象。</p>
+        <div class="movie-card-foot">
+            <span>喜剧 / 爱情 / 校园 / 奇幻</span>
+            <a href="./movie/movie-1940.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="鲨卷风6：最后的鲨卷风" data-region="美国" data-type="电影" data-year="2025" data-genre="喜剧 / 科幻 / 灾难" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-0311.html" aria-label="观看鲨卷风6：最后的鲨卷风">
+        <span class="poster-shell">
+            <img src="./11.jpg" alt="鲨卷风6：最后的鲨卷风" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">24</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0311.html">鲨卷风6：最后的鲨卷风</a>
+        <p class="movie-meta">2025 · 美国 · 电影</p>
+        <p class="movie-desc">鲨卷风席卷全球，主角必须穿越回第一部电影的时间线，阻止自己拯救世界。</p>
+        <div class="movie-card-foot">
+            <span>喜剧 / 科幻 / 灾难</span>
+            <a href="./movie/movie-0311.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="黑暗之力" data-region="日本" data-type="电影" data-year="2022" data-genre="惊悚 / 奇幻" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1397.html" aria-label="观看黑暗之力">
+        <span class="poster-shell">
+            <img src="./47.jpg" alt="黑暗之力" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">25</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1397.html">黑暗之力</a>
+        <p class="movie-meta">2022 · 日本 · 电影</p>
+        <p class="movie-desc">平凡大学生意外获得触碰即可夺走他人生命的黑暗之力，却在追杀中逐渐沉沦为新一代恶魔。</p>
+        <div class="movie-card-foot">
+            <span>惊悚 / 奇幻</span>
+            <a href="./movie/movie-1397.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="你逃我也逃1983" data-region="波兰 / 美国" data-type="电影" data-year="1983" data-genre="喜剧、战争、爱情" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-0094.html" aria-label="观看你逃我也逃1983">
+        <span class="poster-shell">
+            <img src="./94.jpg" alt="你逃我也逃1983" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">26</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0094.html">你逃我也逃1983</a>
+        <p class="movie-meta">1983 · 波兰 / 美国 · 电影</p>
+        <p class="movie-desc">一个华沙剧团被迫用演戏的方式戏弄盖世太保，而女主角同时周旋于丈夫和间谍情人之间。</p>
+        <div class="movie-card-foot">
+            <span>喜剧、战争、爱情</span>
+            <a href="./movie/movie-0094.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="猎毒者2" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="动作 / 犯罪 / 警匪" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1614.html" aria-label="观看猎毒者2">
+        <span class="poster-shell">
+            <img src="./114.jpg" alt="猎毒者2" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">27</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1614.html">猎毒者2</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">前缉毒警深入金三角腹地，这次他的目标不是毒枭，而是沦为毒品的亲生儿子。</p>
+        <div class="movie-card-foot">
+            <span>动作 / 犯罪 / 警匪</span>
+            <a href="./movie/movie-1614.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="格桑花之爱在前行" data-region="中国" data-type="电影" data-year="2023" data-genre="剧情，家庭" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0528.html" aria-label="观看格桑花之爱在前行">
+        <span class="poster-shell">
+            <img src="./78.jpg" alt="格桑花之爱在前行" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">28</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0528.html">格桑花之爱在前行</a>
+        <p class="movie-meta">2023 · 中国 · 电影</p>
+        <p class="movie-desc">一位患有绝症的城市母亲，带着叛逆的女儿踏上川藏线，去寻找她年轻时支教时收养的藏族儿子。</p>
+        <div class="movie-card-foot">
+            <span>剧情，家庭</span>
+            <a href="./movie/movie-0528.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="黑色星期五2021" data-region="美国" data-type="电影" data-year="2021" data-genre="恐怖、惊悚、砍杀" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1071.html" aria-label="观看黑色星期五2021">
+        <span class="poster-shell">
+            <img src="./21.jpg" alt="黑色星期五2021" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">29</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1071.html">黑色星期五2021</a>
+        <p class="movie-meta">2021 · 美国 · 电影</p>
+        <p class="movie-desc">一群年轻人重启废弃的水晶湖营地，却发现杰森·沃赫斯从未死去，而这个黑色星期五恰好是月全食之夜。</p>
+        <div class="movie-card-foot">
+            <span>恐怖、惊悚、砍杀</span>
+            <a href="./movie/movie-1071.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="黑仔刑警" data-region="中国香港" data-type="电影" data-year="2025" data-genre="动作、喜剧、犯罪" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0202.html" aria-label="观看黑仔刑警">
+        <span class="poster-shell">
+            <img src="./52.jpg" alt="黑仔刑警" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">30</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0202.html">黑仔刑警</a>
+        <p class="movie-meta">2025 · 中国香港 · 电影</p>
+        <p class="movie-desc">全警署最倒霉的刑警，在被停职的前一天意外捡到了一个能预知三秒后未来的遥控器。</p>
+        <div class="movie-card-foot">
+            <span>动作、喜剧、犯罪</span>
+            <a href="./movie/movie-0202.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="小丑面前" data-region="美国" data-type="电影" data-year="2024" data-genre="犯罪剧情" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1831.html" aria-label="观看小丑面前">
+        <span class="poster-shell">
+            <img src="./31.jpg" alt="小丑面前" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">31</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1831.html">小丑面前</a>
+        <p class="movie-meta">2024 · 美国 · 电影</p>
+        <p class="movie-desc">一个被生活碾碎的喜剧演员，在镜头前完成了最后一次表演——然后走上街头。</p>
+        <div class="movie-card-foot">
+            <span>犯罪剧情</span>
+            <a href="./movie/movie-1831.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="春暖花开的时候" data-region="中国大陆" data-type="电视剧" data-year="2024" data-genre="年代/家庭" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0745.html" aria-label="观看春暖花开的时候">
+        <span class="poster-shell">
+            <img src="./145.jpg" alt="春暖花开的时候" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">32</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0745.html">春暖花开的时候</a>
+        <p class="movie-meta">2024 · 中国大陆 · 电视剧</p>
+        <p class="movie-desc">一个“黑五类”子女和贫农儿子在特殊年代里，用书和诗歌相互救赎。</p>
+        <div class="movie-card-foot">
+            <span>年代/家庭</span>
+            <a href="./movie/movie-0745.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="绝地奶霸2" data-region="美国" data-type="电影" data-year="2006" data-genre="喜剧， 犯罪， 动作" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-1288.html" aria-label="观看绝地奶霸2">
+        <span class="poster-shell">
+            <img src="./88.jpg" alt="绝地奶霸2" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">33</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1288.html">绝地奶霸2</a>
+        <p class="movie-meta">2006 · 美国 · 电影</p>
+        <p class="movie-desc">FBI 探员麦肯再次穿上肥妈大码装，混进选美比赛保护证人，还要应付岳父的催生大军。</p>
+        <div class="movie-card-foot">
+            <span>喜剧， 犯罪， 动作</span>
+            <a href="./movie/movie-1288.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="万恶城" data-region="美国" data-type="电视剧" data-year="2026" data-genre="科幻， 犯罪， 悬疑" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1505.html" aria-label="观看万恶城">
+        <span class="poster-shell">
+            <img src="./5.jpg" alt="万恶城" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">34</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1505.html">万恶城</a>
+        <p class="movie-meta">2026 · 美国 · 电视剧</p>
+        <p class="movie-desc">犯罪率连续十年为零的未来城市，秘密在于每个市民七岁时都会被植入“恶念抑制芯片”，而芯片最近开始批量失灵。</p>
+        <div class="movie-card-foot">
+            <span>科幻， 犯罪， 悬疑</span>
+            <a href="./movie/movie-1505.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="灌篮高手的契约" data-region="日本" data-type="动画电影" data-year="2025" data-genre="运动" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-0419.html" aria-label="观看灌篮高手的契约">
+        <span class="poster-shell">
+            <img src="./119.jpg" alt="灌篮高手的契约" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">35</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0419.html">灌篮高手的契约</a>
+        <p class="movie-meta">2025 · 日本 · 动画电影</p>
+        <p class="movie-desc">日本第一高中生控卫与神秘契约者约定：一年内赢下全国大赛，否则从此放弃篮球，而契约者是十年前的他自己。</p>
+        <div class="movie-card-foot">
+            <span>运动</span>
+            <a href="./movie/movie-0419.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="铁血军魂" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="战争 / 历史" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0962.html" aria-label="观看铁血军魂">
+        <span class="poster-shell">
+            <img src="./62.jpg" alt="铁血军魂" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">36</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0962.html">铁血军魂</a>
+        <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">1937年淞沪会战，一个来自江南书香的文弱书生被迫拿起枪，与七个性格各异的士兵组成最不像敢死队的敢死队。</p>
+        <div class="movie-card-foot">
+            <span>战争 / 历史</span>
+            <a href="./movie/movie-0962.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="阴宅2" data-region="中国香港 / 马来西亚" data-type="电影" data-year="2026" data-genre="恐怖 / 惊悚" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0093.html" aria-label="观看阴宅2">
+        <span class="poster-shell">
+            <img src="./93.jpg" alt="阴宅2" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">37</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0093.html">阴宅2</a>
+        <p class="movie-meta">2026 · 中国香港 / 马来西亚 · 电影</p>
+        <p class="movie-desc">十年前逃出凶宅的母亲疯了，十年后她带着女儿回到同一栋楼，女儿才发现——疯的不是妈妈，是这栋楼里的所有活人。</p>
+        <div class="movie-card-foot">
+            <span>恐怖 / 惊悚</span>
+            <a href="./movie/movie-0093.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="勇者大冒险第二季" data-region="中国" data-type="剧集" data-year="2025" data-genre="动画、冒险、奇幻" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-0636.html" aria-label="观看勇者大冒险第二季">
+        <span class="poster-shell">
+            <img src="./36.jpg" alt="勇者大冒险第二季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">38</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0636.html">勇者大冒险第二季</a>
+        <p class="movie-meta">2025 · 中国 · 剧集</p>
+        <p class="movie-desc">上一季他们找到了秦始皇陵，这一季发现陵墓下面压着另一座更古老的城市。</p>
+        <div class="movie-card-foot">
+            <span>动画、冒险、奇幻</span>
+            <a href="./movie/movie-0636.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="魔法坏女巫:幕后故事" data-region="美国" data-type="电影" data-year="2024" data-genre="音乐纪录片" data-category="欧美大片">
+    <a class="poster-link" href="./movie/movie-1722.html" aria-label="观看魔法坏女巫:幕后故事">
+        <span class="poster-shell">
+            <img src="./72.jpg" alt="魔法坏女巫:幕后故事" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">39</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1722.html">魔法坏女巫:幕后故事</a>
+        <p class="movie-meta">2024 · 美国 · 电影</p>
+        <p class="movie-desc">百老汇神剧《魔法坏女巫》从纸面到舞台的20年艰难孵化之路。</p>
+        <div class="movie-card-foot">
+            <span>音乐纪录片</span>
+            <a href="./movie/movie-1722.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="维也纳血案第二季" data-region="奥地利" data-type="剧集" data-year="2024" data-genre="悬疑历史" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1179.html" aria-label="观看维也纳血案第二季">
+        <span class="poster-shell">
+            <img src="./129.jpg" alt="维也纳血案第二季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">40</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1179.html">维也纳血案第二季</a>
+        <p class="movie-meta">2024 · 奥地利 · 剧集</p>
+        <p class="movie-desc">弗洛伊德的门徒与叛逆警探，在1902年维也纳深挖被美学掩盖的碎尸案。</p>
+        <div class="movie-card-foot">
+            <span>悬疑历史</span>
+            <a href="./movie/movie-1179.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="墟垣以东" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="灾难, 剧情" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0853.html" aria-label="观看墟垣以东">
+        <span class="poster-shell">
+            <img src="./103.jpg" alt="墟垣以东" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">41</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0853.html">墟垣以东</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">大地震后，一座化工厂废墟以东的居民区里，幸存者们必须在毒气泄漏和余震夹缝中，决定谁能优先使用仅有的三套防毒面具。</p>
+        <div class="movie-card-foot">
+            <span>灾难, 剧情</span>
+            <a href="./movie/movie-0853.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="弗莱蒙与希特伦" data-region="丹麦" data-type="电影" data-year="2024" data-genre="历史，战争" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-1939.html" aria-label="观看弗莱蒙与希特伦">
+        <span class="poster-shell">
+            <img src="./139.jpg" alt="弗莱蒙与希特伦" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">42</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1939.html">弗莱蒙与希特伦</a>
+        <p class="movie-meta">2024 · 丹麦 · 电影</p>
+        <p class="movie-desc">丹麦地下抵抗组织的两位传奇杀手，在纳粹占领时期一边暗杀叛徒，一边陷入信任危机。</p>
+        <div class="movie-card-foot">
+            <span>历史，战争</span>
+            <a href="./movie/movie-1939.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="捣蛋的公鸡" data-region="法国/比利时" data-type="电影" data-year="2024" data-genre="动画/喜剧/家庭" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-1396.html" aria-label="观看捣蛋的公鸡">
+        <span class="poster-shell">
+            <img src="./46.jpg" alt="捣蛋的公鸡" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">43</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1396.html">捣蛋的公鸡</a>
+        <p class="movie-meta">2024 · 法国/比利时 · 电影</p>
+        <p class="movie-desc">一只自以为是农场守护者的骄傲公鸡，阴差阳错带着一只笨鸭子踏上了寻找“丢失的太阳”的旅程。</p>
+        <div class="movie-card-foot">
+            <span>动画/喜剧/家庭</span>
+            <a href="./movie/movie-1396.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="#活着" data-region="韩国" data-type="电影" data-year="2020" data-genre="惊悚, 丧尸, 生存" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-0310.html" aria-label="观看#活着">
+        <span class="poster-shell">
+            <img src="./10.jpg" alt="#活着" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">44</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0310.html">#活着</a>
+        <p class="movie-meta">2020 · 韩国 · 电影</p>
+        <p class="movie-desc">丧尸病毒爆发，一名宅男被困公寓，靠一部快没电的手机和对面楼的女孩相互求存。</p>
+        <div class="movie-card-foot">
+            <span>惊悚, 丧尸, 生存</span>
+            <a href="./movie/movie-0310.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="莫罗博士的岛" data-region="英国" data-type="电影" data-year="2027" data-genre="科幻 / 惊悚 / 恐怖" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1070.html" aria-label="观看莫罗博士的岛">
+        <span class="poster-shell">
+            <img src="./20.jpg" alt="莫罗博士的岛" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">45</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1070.html">莫罗博士的岛</a>
+        <p class="movie-meta">2027 · 英国 · 电影</p>
+        <p class="movie-desc">一个落魄记者流落到孤岛，发现岛上的居民全是半人半兽的“改造体”，而神父般的莫罗博士，正享受着当“上帝”的快感。</p>
+        <div class="movie-card-foot">
+            <span>科幻 / 惊悚 / 恐怖</span>
+            <a href="./movie/movie-1070.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="天道王" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="古装 / 动作 / 奇幻" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1613.html" aria-label="观看天道王">
+        <span class="poster-shell">
+            <img src="./113.jpg" alt="天道王" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">46</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1613.html">天道王</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">他被封为雷部正神，却发现天庭只是更大的凡间。</p>
+        <div class="movie-card-foot">
+            <span>古装 / 动作 / 奇幻</span>
+            <a href="./movie/movie-1613.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="小屁孩日记3：圣诞大惊喜" data-region="美国" data-type="电影" data-year="2012" data-genre="喜剧 / 家庭 / 儿童" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-0527.html" aria-label="观看小屁孩日记3：圣诞大惊喜">
+        <span class="poster-shell">
+            <img src="./77.jpg" alt="小屁孩日记3：圣诞大惊喜" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">47</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0527.html">小屁孩日记3：圣诞大惊喜</a>
+        <p class="movie-meta">2012 · 美国 · 电影</p>
+        <p class="movie-desc">格雷想给全校准备一个“史上最棒的圣诞惊喜”，结果把耶稣诞生剧演成了灾难现场。</p>
+        <div class="movie-card-foot">
+            <span>喜剧 / 家庭 / 儿童</span>
+            <a href="./movie/movie-0527.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="特务一一七" data-region="中国台湾" data-type="剧集" data-year="2025" data-genre="谍战喜剧" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1287.html" aria-label="观看特务一一七">
+        <span class="poster-shell">
+            <img src="./87.jpg" alt="特务一一七" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">48</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1287.html">特务一一七</a>
+        <p class="movie-meta">2025 · 中国台湾 · 剧集</p>
+        <p class="movie-desc">代号117的王牌特工其实是单位里的茶水间文员，为了领取退休金，他不得不假装执行一场不存在的刺杀任务。</p>
+        <div class="movie-card-foot">
+            <span>谍战喜剧</span>
+            <a href="./movie/movie-1287.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="未走过的路" data-region="英国" data-type="电影" data-year="2025" data-genre="剧情, 爱情, 奇幻" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-0744.html" aria-label="观看未走过的路">
+        <span class="poster-shell">
+            <img src="./144.jpg" alt="未走过的路" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">49</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0744.html">未走过的路</a>
+        <p class="movie-meta">2025 · 英国 · 电影</p>
+        <p class="movie-desc">一位晚年成名的作家在病床上回顾一生，他的意识开始在“结婚”与“不结婚”的两条人生轨迹之间跳跃。</p>
+        <div class="movie-card-foot">
+            <span>剧情, 爱情, 奇幻</span>
+            <a href="./movie/movie-0744.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="婚色撩人第二季" data-region="中国大陆" data-type="剧集" data-year="2025" data-genre="爱情 / 都市" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0201.html" aria-label="观看婚色撩人第二季">
+        <span class="poster-shell">
+            <img src="./51.jpg" alt="婚色撩人第二季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">50</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0201.html">婚色撩人第二季</a>
+        <p class="movie-meta">2025 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">离婚后才发现彼此才是最佳拍档，前夫前妻联手在商界搅动风云。</p>
+        <div class="movie-card-foot">
+            <span>爱情 / 都市</span>
+            <a href="./movie/movie-0201.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="悬案密码3：信仰的阴谋" data-region="丹麦" data-type="电影" data-year="2026" data-genre="犯罪/悬疑/惊悚" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-0961.html" aria-label="观看悬案密码3：信仰的阴谋">
+        <span class="poster-shell">
+            <img src="./61.jpg" alt="悬案密码3：信仰的阴谋" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">51</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0961.html">悬案密码3：信仰的阴谋</a>
+        <p class="movie-meta">2026 · 丹麦 · 电影</p>
+        <p class="movie-desc">Q部门的卡尔接手一桩陈年箱尸案，发现死者全都曾是一个隐秘教派的成员，而这个教派至今仍在高层活动。</p>
+        <div class="movie-card-foot">
+            <span>犯罪/悬疑/惊悚</span>
+            <a href="./movie/movie-0961.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="小不点" data-region="法国 / 比利时" data-type="电影" data-year="2024" data-genre="动画 / 家庭" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1504.html" aria-label="观看小不点">
+        <span class="poster-shell">
+            <img src="./4.jpg" alt="小不点" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">52</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1504.html">小不点</a>
+        <p class="movie-meta">2024 · 法国 / 比利时 · 电影</p>
+        <p class="movie-desc">在一个所有东西都必须成双成对的世界里，一个只有三根手指的小不点，用一只手拯救了整个城市。</p>
+        <div class="movie-card-foot">
+            <span>动画 / 家庭</span>
+            <a href="./movie/movie-1504.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="狼与香辛料第二季" data-region="日本" data-type="TV动画" data-year="2024" data-genre="奇幻、经济、冒险、恋爱" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-0418.html" aria-label="观看狼与香辛料第二季">
+        <span class="poster-shell">
+            <img src="./118.jpg" alt="狼与香辛料第二季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">53</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0418.html">狼与香辛料第二季</a>
+        <p class="movie-meta">2024 · 日本 · TV动画</p>
+        <p class="movie-desc">旅行商人罗伦斯与贤狼赫萝在金色麦田里开了一家贷款店，第一个客户竟是教会派来的，要借钱在镇上建一座“驱魔教堂”。</p>
+        <div class="movie-card-foot">
+            <span>奇幻、经济、冒险、恋爱</span>
+            <a href="./movie/movie-0418.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="恐怖的夜" data-region="日本" data-type="电影" data-year="1991" data-genre="恐怖 / 悬疑 / 心理" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1830.html" aria-label="观看恐怖的夜">
+        <span class="poster-shell">
+            <img src="./30.jpg" alt="恐怖的夜" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">54</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1830.html">恐怖的夜</a>
+        <p class="movie-meta">1991 · 日本 · 电影</p>
+        <p class="movie-desc">一家人搬进新居，每晚都会收到一盒录像带，里面录的是他们明天将要遭遇的恐怖事件。</p>
+        <div class="movie-card-foot">
+            <span>恐怖 / 悬疑 / 心理</span>
+            <a href="./movie/movie-1830.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="核子弹头" data-region="俄罗斯 / 美国" data-type="电影" data-year="2026" data-genre="动作 / 科幻" data-category="欧美大片">
+    <a class="poster-link" href="./movie/movie-0092.html" aria-label="观看核子弹头">
+        <span class="poster-shell">
+            <img src="./92.jpg" alt="核子弹头" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">55</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0092.html">核子弹头</a>
+        <p class="movie-meta">2026 · 俄罗斯 / 美国 · 电影</p>
+        <p class="movie-desc">一座被冰封的苏联核弹发射井里，七个不同身份的人醒来，他们必须在导弹自爆前解开谁是“叛徒”。</p>
+        <div class="movie-card-foot">
+            <span>动作 / 科幻</span>
+            <a href="./movie/movie-0092.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="白色地球" data-region="俄罗斯" data-type="电影" data-year="2025" data-genre="科幻, 灾难" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1721.html" aria-label="观看白色地球">
+        <span class="poster-shell">
+            <img src="./71.jpg" alt="白色地球" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">56</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1721.html">白色地球</a>
+        <p class="movie-meta">2025 · 俄罗斯 · 电影</p>
+        <p class="movie-desc">永久冻土融化后，地球上最后一片陆地是白色的西伯利亚，而人类只剩下最后一百天。</p>
+        <div class="movie-card-foot">
+            <span>科幻, 灾难</span>
+            <a href="./movie/movie-1721.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="酷恋青春" data-region="中国台湾" data-type="电影" data-year="2025" data-genre="爱情, 同性, 青春" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1178.html" aria-label="观看酷恋青春">
+        <span class="poster-shell">
+            <img src="./128.jpg" alt="酷恋青春" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">57</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1178.html">酷恋青春</a>
+        <p class="movie-meta">2025 · 中国台湾 · 电影</p>
+        <p class="movie-desc">泳池里的两个男孩，一个为了逃避未来，一个为了争取现在，在水的浮力中学会了面对重力。</p>
+        <div class="movie-card-foot">
+            <span>爱情, 同性, 青春</span>
+            <a href="./movie/movie-1178.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="彼得·塞勒斯的生与死" data-region="英国" data-type="电影" data-year="2024" data-genre="传记, 剧情" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-0635.html" aria-label="观看彼得·塞勒斯的生与死">
+        <span class="poster-shell">
+            <img src="./35.jpg" alt="彼得·塞勒斯的生与死" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">58</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0635.html">彼得·塞勒斯的生与死</a>
+        <p class="movie-meta">2024 · 英国 · 电影</p>
+        <p class="movie-desc">他演活了无数角色，唯独演不好自己，喜剧大师彼得·塞勒斯辉煌而孤独的一生。</p>
+        <div class="movie-card-foot">
+            <span>传记, 剧情</span>
+            <a href="./movie/movie-0635.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="恐龙世纪" data-region="英国" data-type="动画剧集" data-year="2024" data-genre="冒险 / 科幻 / 家庭" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1938.html" aria-label="观看恐龙世纪">
+        <span class="poster-shell">
+            <img src="./138.jpg" alt="恐龙世纪" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">59</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1938.html">恐龙世纪</a>
+        <p class="movie-meta">2024 · 英国 · 动画剧集</p>
+        <p class="movie-desc">一个叛逆少女和一位古生物学家意外穿越到白垩纪，必须在恐龙社会中生存并找到回家之路。</p>
+        <div class="movie-card-foot">
+            <span>冒险 / 科幻 / 家庭</span>
+            <a href="./movie/movie-1938.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="海之盐" data-region="意大利" data-type="电影" data-year="2013" data-genre="剧情, 历史" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-1395.html" aria-label="观看海之盐">
+        <span class="poster-shell">
+            <img src="./45.jpg" alt="海之盐" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">60</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1395.html">海之盐</a>
+        <p class="movie-meta">2013 · 意大利 · 电影</p>
+        <p class="movie-desc">二战末期，西西里岛一座盐矿里，一群采盐女工在等待美军登陆时，秘密藏匿了一个逃亡的德国士兵。</p>
+        <div class="movie-card-foot">
+            <span>剧情, 历史</span>
+            <a href="./movie/movie-1395.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="营盘镇警事" data-region="中国大陆" data-type="剧集" data-year="2012" data-genre="剧情, 刑侦" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0309.html" aria-label="观看营盘镇警事">
+        <span class="poster-shell">
+            <img src="./9.jpg" alt="营盘镇警事" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">61</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0309.html">营盘镇警事</a>
+        <p class="movie-meta">2012 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">一个基层派出所所长，用三十年的时间，把自己活成了整个营盘镇的“定海神针”。</p>
+        <div class="movie-card-foot">
+            <span>剧情, 刑侦</span>
+            <a href="./movie/movie-0309.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="对我而言非常珍贵的你" data-region="日本" data-type="电影" data-year="2025" data-genre="剧情、家庭、治愈" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1612.html" aria-label="观看对我而言非常珍贵的你">
+        <span class="poster-shell">
+            <img src="./112.jpg" alt="对我而言非常珍贵的你" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">62</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1612.html">对我而言非常珍贵的你</a>
+        <p class="movie-meta">2025 · 日本 · 电影</p>
+        <p class="movie-desc">一直怨恨妹妹抢走母爱的哥哥，在妹妹因车祸失忆后，被迫扮演她口中那个“完美的哥哥”。</p>
+        <div class="movie-card-foot">
+            <span>剧情、家庭、治愈</span>
+            <a href="./movie/movie-1612.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="走啊，走" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="剧情 / 公路" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1069.html" aria-label="观看走啊，走">
+        <span class="poster-shell">
+            <img src="./19.jpg" alt="走啊，走" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">63</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1069.html">走啊，走</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">得知儿子高考落榜，货车司机父亲逼他陪自己跑最后一趟长途，两千公里的沉默是救赎的唯一通道。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 公路</span>
+            <a href="./movie/movie-1069.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="武林三杀手" data-region="香港" data-type="电影" data-year="1992" data-genre="动作， 喜剧， 武侠" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-0852.html" aria-label="观看武林三杀手">
+        <span class="poster-shell">
+            <img src="./102.jpg" alt="武林三杀手" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">64</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0852.html">武林三杀手</a>
+        <p class="movie-meta">1992 · 香港 · 电影</p>
+        <p class="movie-desc">三个衰到极点的杀手接下刺杀任务，却每次都因为心软把目标变成雇主。</p>
+        <div class="movie-card-foot">
+            <span>动作， 喜剧， 武侠</span>
+            <a href="./movie/movie-0852.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="空姐学堂" data-region="中国大陆" data-type="电视剧" data-year="2015" data-genre="青春、职场、励志" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0526.html" aria-label="观看空姐学堂">
+        <span class="poster-shell">
+            <img src="./76.jpg" alt="空姐学堂" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">65</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0526.html">空姐学堂</a>
+        <p class="movie-meta">2015 · 中国大陆 · 电视剧</p>
+        <p class="movie-desc">五个性格迥异的女孩进入空乘培训学校，从互撕到互撑，一起向蓝天出发。</p>
+        <div class="movie-card-foot">
+            <span>青春、职场、励志</span>
+            <a href="./movie/movie-0526.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="一柱擎天" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="动作， 武侠， 奇幻" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1829.html" aria-label="观看一柱擎天">
+        <span class="poster-shell">
+            <img src="./29.jpg" alt="一柱擎天" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">66</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1829.html">一柱擎天</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">为了拯救被囚禁的族人，一名沉默的铁匠激活了祖传的巨型机关铜人，独自向守备森严的空中楼阁发起冲锋。</p>
+        <div class="movie-card-foot">
+            <span>动作， 武侠， 奇幻</span>
+            <a href="./movie/movie-1829.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="奔跑吧！勇敢的女人们国语" data-region="中国香港 / 中国大陆" data-type="综艺" data-year="2025" data-genre="真人秀 / 冒险" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1286.html" aria-label="观看奔跑吧！勇敢的女人们国语">
+        <span class="poster-shell">
+            <img src="./86.jpg" alt="奔跑吧！勇敢的女人们国语" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">67</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1286.html">奔跑吧！勇敢的女人们国语</a>
+        <p class="movie-meta">2025 · 中国香港 / 中国大陆 · 综艺</p>
+        <p class="movie-desc">八位平均年龄45岁的女艺人被扔到无人岛，节目组只给了一句话：“请证明你们还没有过气。”</p>
+        <div class="movie-card-foot">
+            <span>真人秀 / 冒险</span>
+            <a href="./movie/movie-1286.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="真爱节拍" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="爱情, 音乐" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0200.html" aria-label="观看真爱节拍">
+        <span class="poster-shell">
+            <img src="./50.jpg" alt="真爱节拍" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">68</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0200.html">真爱节拍</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">一个因意外失聪的天才街舞舞者，遇到了一个同样热爱街舞、却只能用节拍器感受音乐的听障女孩，他们组成了世界上第一支“无声街舞组合”。</p>
+        <div class="movie-card-foot">
+            <span>爱情, 音乐</span>
+            <a href="./movie/movie-0200.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="锦绣良缘粤语" data-region="香港" data-type="电视剧" data-year="2001" data-genre="喜剧, 爱情, 古装" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0743.html" aria-label="观看锦绣良缘粤语">
+        <span class="poster-shell">
+            <img src="./143.jpg" alt="锦绣良缘粤语" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">69</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0743.html">锦绣良缘粤语</a>
+        <p class="movie-meta">2001 · 香港 · 电视剧</p>
+        <p class="movie-desc">程家绣庄四公子与野蛮郡主从相看两厌到共撑家业的爆笑故事。</p>
+        <div class="movie-card-foot">
+            <span>喜剧, 爱情, 古装</span>
+            <a href="./movie/movie-0743.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="颠覆全世界" data-region="美国" data-type="剧集" data-year="2024" data-genre="科幻、悬疑、青春" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0960.html" aria-label="观看颠覆全世界">
+        <span class="poster-shell">
+            <img src="./60.jpg" alt="颠覆全世界" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">70</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0960.html">颠覆全世界</a>
+        <p class="movie-meta">2024 · 美国 · 剧集</p>
+        <p class="movie-desc">四名天才高中生发明了一台能连接平行世界的设备，他们盗取另一个自己的能力，却引来了跨维度执法者的追杀。</p>
+        <div class="movie-card-foot">
+            <span>科幻、悬疑、青春</span>
+            <a href="./movie/movie-0960.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="不思异：怪谈" data-region="中国" data-type="剧集" data-year="2023" data-genre="悬疑，惊悚，单元剧" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1503.html" aria-label="观看不思异：怪谈">
+        <span class="poster-shell">
+            <img src="./3.jpg" alt="不思异：怪谈" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">71</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1503.html">不思异：怪谈</a>
+        <p class="movie-meta">2023 · 中国 · 剧集</p>
+        <p class="movie-desc">一家深夜电台接听诡异来电，每通电话背后，都是一段无法解释的真实经历。</p>
+        <div class="movie-card-foot">
+            <span>悬疑，惊悚，单元剧</span>
+            <a href="./movie/movie-1503.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="亲爱的奶奶" data-region="中国" data-type="电影" data-year="2013" data-genre="剧情, 家庭" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0417.html" aria-label="观看亲爱的奶奶">
+        <span class="poster-shell">
+            <img src="./117.jpg" alt="亲爱的奶奶" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">72</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0417.html">亲爱的奶奶</a>
+        <p class="movie-meta">2013 · 中国 · 电影</p>
+        <p class="movie-desc">北漂孙子春节回家，发现奶奶患了老年痴呆，只记得六十年前的一段初恋，孙子决定帮奶奶去找那个“老爷爷”。</p>
+        <div class="movie-card-foot">
+            <span>剧情, 家庭</span>
+            <a href="./movie/movie-0417.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="独立的生活" data-region="日本" data-type="电视剧" data-year="2025" data-genre="剧情, 家庭" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0634.html" aria-label="观看独立的生活">
+        <span class="poster-shell">
+            <img src="./34.jpg" alt="独立的生活" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">73</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0634.html">独立的生活</a>
+        <p class="movie-meta">2025 · 日本 · 电视剧</p>
+        <p class="movie-desc">四十岁的家庭主妇突然搬进4.5坪的单身公寓，用一年时间重新学习“活着”。</p>
+        <div class="movie-card-foot">
+            <span>剧情, 家庭</span>
+            <a href="./movie/movie-0634.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="春风不化雨" data-region="日本" data-type="剧集" data-year="2023" data-genre="剧情，校园，治愈" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1177.html" aria-label="观看春风不化雨">
+        <span class="poster-shell">
+            <img src="./127.jpg" alt="春风不化雨" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">74</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1177.html">春风不化雨</a>
+        <p class="movie-meta">2023 · 日本 · 剧集</p>
+        <p class="movie-desc">一个被开除的摇滚乐手来到面临废校的乡下中学，用音乐和“不听话”的方式拯救了9名问题学生。</p>
+        <div class="movie-card-foot">
+            <span>剧情，校园，治愈</span>
+            <a href="./movie/movie-1177.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="神奇数字马戏团第一季" data-region="美国" data-type="剧集" data-year="2023" data-genre="动画 / 悬疑 / 奇幻" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-0091.html" aria-label="观看神奇数字马戏团第一季">
+        <span class="poster-shell">
+            <img src="./91.jpg" alt="神奇数字马戏团第一季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">75</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0091.html">神奇数字马戏团第一季</a>
+        <p class="movie-meta">2023 · 美国 · 剧集</p>
+        <p class="movie-desc">六个人戴上VR头显后，被困在一个诡异的数字马戏团，必须通关游戏才能不变成玩偶。</p>
+        <div class="movie-card-foot">
+            <span>动画 / 悬疑 / 奇幻</span>
+            <a href="./movie/movie-0091.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="魔音穿谷" data-region="美国" data-type="电影" data-year="2018" data-genre="恐怖 / 悬疑" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1720.html" aria-label="观看魔音穿谷">
+        <span class="poster-shell">
+            <img src="./70.jpg" alt="魔音穿谷" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">76</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1720.html">魔音穿谷</a>
+        <p class="movie-meta">2018 · 美国 · 电影</p>
+        <p class="movie-desc">声音治疗师在山谷疗养院听到一种只有她能听见的旋律，随后病人开始集体自杀。</p>
+        <div class="movie-card-foot">
+            <span>恐怖 / 悬疑</span>
+            <a href="./movie/movie-1720.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="赌城小妹" data-region="香港" data-type="电影" data-year="2026" data-genre="动作, 犯罪" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1394.html" aria-label="观看赌城小妹">
+        <span class="poster-shell">
+            <img src="./44.jpg" alt="赌城小妹" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">77</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1394.html">赌城小妹</a>
+        <p class="movie-meta">2026 · 香港 · 电影</p>
+        <p class="movie-desc">澳门赌场里一个负责端茶倒水的哑女，用一套自创的“无声千术”，向五年前害死父母的赌界大佬复仇。</p>
+        <div class="movie-card-foot">
+            <span>动作, 犯罪</span>
+            <a href="./movie/movie-1394.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="康纳·麦格雷戈：臭名昭著" data-region="爱尔兰" data-type="纪录片" data-year="2025" data-genre="传记, 体育, 纪录" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-1937.html" aria-label="观看康纳·麦格雷戈：臭名昭著">
+        <span class="poster-shell">
+            <img src="./137.jpg" alt="康纳·麦格雷戈：臭名昭著" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">78</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1937.html">康纳·麦格雷戈：臭名昭著</a>
+        <p class="movie-meta">2025 · 爱尔兰 · 纪录片</p>
+        <p class="movie-desc">从水管工到UFC双冠王，康纳·麦格雷戈用嘴炮与拳头改写格斗史的真实记录。</p>
+        <div class="movie-card-foot">
+            <span>传记, 体育, 纪录</span>
+            <a href="./movie/movie-1937.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="失格教育" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="剧情 / 悬疑" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0851.html" aria-label="观看失格教育">
+        <span class="poster-shell">
+            <img src="./101.jpg" alt="失格教育" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">79</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0851.html">失格教育</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">一所重点中学的优等生接连“行为失格”，实习老师却发现所谓的品格分背后藏着一套黑暗算法。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 悬疑</span>
+            <a href="./movie/movie-0851.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="叶问4:完结篇" data-region="中国香港 / 中国大陆" data-type="电影" data-year="2019" data-genre="动作, 传记" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0308.html" aria-label="观看叶问4:完结篇">
+        <span class="poster-shell">
+            <img src="./8.jpg" alt="叶问4:完结篇" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">80</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0308.html">叶问4:完结篇</a>
+        <p class="movie-meta">2019 · 中国香港 / 中国大陆 · 电影</p>
+        <p class="movie-desc">叶问晚年赴美为儿子寻学校，却目睹华人被欺凌，以一通咏春拳打出了最后的风骨。</p>
+        <div class="movie-card-foot">
+            <span>动作, 传记</span>
+            <a href="./movie/movie-0308.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="十个小印第安人" data-region="英国" data-type="电视剧" data-year="2022" data-genre="悬疑犯罪" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1068.html" aria-label="观看十个小印第安人">
+        <span class="poster-shell">
+            <img src="./18.jpg" alt="十个小印第安人" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">81</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1068.html">十个小印第安人</a>
+        <p class="movie-meta">2022 · 英国 · 电视剧</p>
+        <p class="movie-desc">十个素不相识的人被邀请到苏格兰一座孤岛古堡，每餐一顿，房间里的印第安小瓷人就碎一个，而他们正按一首童谣的顺序死去。</p>
+        <div class="movie-card-foot">
+            <span>悬疑犯罪</span>
+            <a href="./movie/movie-1068.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="贫民百万总统" data-region="菲律宾" data-type="电影" data-year="2021" data-genre="剧情 / 喜剧 / 政治" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-0525.html" aria-label="观看贫民百万总统">
+        <span class="poster-shell">
+            <img src="./75.jpg" alt="贫民百万总统" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">82</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0525.html">贫民百万总统</a>
+        <p class="movie-meta">2021 · 菲律宾 · 电影</p>
+        <p class="movie-desc">马尼拉贫民窟的无业青年被幕后推手包装成“最懂穷人”的总统候选人，他自己却一个字都不信。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 喜剧 / 政治</span>
+            <a href="./movie/movie-0525.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="办公室的诱惑" data-region="中国大陆" data-type="电影" data-year="2015" data-genre="爱情, 剧情, 职场" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1611.html" aria-label="观看办公室的诱惑">
+        <span class="poster-shell">
+            <img src="./111.jpg" alt="办公室的诱惑" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">83</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1611.html">办公室的诱惑</a>
+        <p class="movie-meta">2015 · 中国大陆 · 电影</p>
+        <p class="movie-desc">初入职场的实习生面对女总裁的致命诱惑，是飞黄腾达的捷径，还是万劫不复的深渊？</p>
+        <div class="movie-card-foot">
+            <span>爱情, 剧情, 职场</span>
+            <a href="./movie/movie-1611.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="心弦为君而鸣" data-region="日本" data-type="电影" data-year="2025" data-genre="爱情, 音乐" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1285.html" aria-label="观看心弦为君而鸣">
+        <span class="poster-shell">
+            <img src="./85.jpg" alt="心弦为君而鸣" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">84</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1285.html">心弦为君而鸣</a>
+        <p class="movie-meta">2025 · 日本 · 电影</p>
+        <p class="movie-desc">一个无法感受音乐情感的女生，遇到了一个背负着过去创伤的天才小提琴手，他们用青春治愈彼此失聪的灵魂。</p>
+        <div class="movie-card-foot">
+            <span>爱情, 音乐</span>
+            <a href="./movie/movie-1285.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="罗勃先生" data-region="韩国" data-type="剧集" data-year="2025" data-genre="悬疑、犯罪、惊悚" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-0742.html" aria-label="观看罗勃先生">
+        <span class="poster-shell">
+            <img src="./142.jpg" alt="罗勃先生" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">85</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0742.html">罗勃先生</a>
+        <p class="movie-meta">2025 · 韩国 · 剧集</p>
+        <p class="movie-desc">一个被称为“罗勃先生”的神秘AI，能帮你完成任何复仇，但你必须先回答它一个问题：“你愿意为此付出什么？”</p>
+        <div class="movie-card-foot">
+            <span>悬疑、犯罪、惊悚</span>
+            <a href="./movie/movie-0742.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="圣地亚哥，意大利" data-region="意大利" data-type="电影" data-year="2024" data-genre="剧情， 喜剧， 战争" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-1828.html" aria-label="观看圣地亚哥，意大利">
+        <span class="poster-shell">
+            <img src="./28.jpg" alt="圣地亚哥，意大利" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">86</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1828.html">圣地亚哥，意大利</a>
+        <p class="movie-meta">2024 · 意大利 · 电影</p>
+        <p class="movie-desc">1943年，一个误闯入意大利南部小镇的美国黑人士兵，被当地居民误认为是“解放者”，并被推选为镇长。</p>
+        <div class="movie-card-foot">
+            <span>剧情， 喜剧， 战争</span>
+            <a href="./movie/movie-1828.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="百无禁忌！女高中生私房话" data-region="日本" data-type="剧集" data-year="2024" data-genre="喜剧 / 青春 / 日常" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0199.html" aria-label="观看百无禁忌！女高中生私房话">
+        <span class="poster-shell">
+            <img src="./49.jpg" alt="百无禁忌！女高中生私房话" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">87</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0199.html">百无禁忌！女高中生私房话</a>
+        <p class="movie-meta">2024 · 日本 · 剧集</p>
+        <p class="movie-desc">三个女高中生在学校天台上，每天午饭时间讨论的全是不能播的超禁忌话题。</p>
+        <div class="movie-card-foot">
+            <span>喜剧 / 青春 / 日常</span>
+            <a href="./movie/movie-0199.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="一休和尚2" data-region="日本" data-type="剧集" data-year="2026" data-genre="历史 / 悬疑 / 奇幻" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-0416.html" aria-label="观看一休和尚2">
+        <span class="poster-shell">
+            <img src="./116.jpg" alt="一休和尚2" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">88</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0416.html">一休和尚2</a>
+        <p class="movie-meta">2026 · 日本 · 剧集</p>
+        <p class="movie-desc">一休和尚还俗后成了流浪诗人，却被足利义教将军逼着用禅机破解京都连环命案，死者都是幕府重臣。</p>
+        <div class="movie-card-foot">
+            <span>历史 / 悬疑 / 奇幻</span>
+            <a href="./movie/movie-0416.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="青苔花开" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="剧情、家庭" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0959.html" aria-label="观看青苔花开">
+        <span class="poster-shell">
+            <img src="./59.jpg" alt="青苔花开" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">89</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0959.html">青苔花开</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">内向女孩通过修复奶奶留下的青苔盆景，与城里来的支教老师意外串联起三代人的秘密。</p>
+        <div class="movie-card-foot">
+            <span>剧情、家庭</span>
+            <a href="./movie/movie-0959.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="蜜熊的音乐奇旅" data-region="美国" data-type="动画电影" data-year="2024" data-genre="冒险、音乐、奇幻" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1502.html" aria-label="观看蜜熊的音乐奇旅">
+        <span class="poster-shell">
+            <img src="./2.jpg" alt="蜜熊的音乐奇旅" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">90</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1502.html">蜜熊的音乐奇旅</a>
+        <p class="movie-meta">2024 · 美国 · 动画电影</p>
+        <p class="movie-desc">一只会弹吉他的蜜熊为了寻找遗失的神圣乐谱，与话痨鹦鹉组队穿越南美雨林。</p>
+        <div class="movie-card-foot">
+            <span>冒险、音乐、奇幻</span>
+            <a href="./movie/movie-1502.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="百年孤独" data-region="哥伦比亚" data-type="剧集" data-year="2025" data-genre="剧情 / 奇幻 / 历史" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1719.html" aria-label="观看百年孤独">
+        <span class="poster-shell">
+            <img src="./69.jpg" alt="百年孤独" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">91</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1719.html">百年孤独</a>
+        <p class="movie-meta">2025 · 哥伦比亚 · 剧集</p>
+        <p class="movie-desc">何塞·阿尔卡蒂奥·布恩迪亚看到冰块的那一天，家族的百年诅咒正式开始应验。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 奇幻 / 历史</span>
+            <a href="./movie/movie-1719.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="火线英雄" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="动作 / 灾难 / 职业" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0633.html" aria-label="观看火线英雄">
+        <span class="poster-shell">
+            <img src="./33.jpg" alt="火线英雄" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">92</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0633.html">火线英雄</a>
+        <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">滨海城中队的消防员们，在一次次烈焰救援中，治愈着自己的创伤后应激障碍。</p>
+        <div class="movie-card-foot">
+            <span>动作 / 灾难 / 职业</span>
+            <a href="./movie/movie-0633.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="空白的13年" data-region="日本" data-type="电影" data-year="2018" data-genre="剧情， 家庭" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-1176.html" aria-label="观看空白的13年">
+        <span class="poster-shell">
+            <img src="./126.jpg" alt="空白的13年" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">93</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1176.html">空白的13年</a>
+        <p class="movie-meta">2018 · 日本 · 电影</p>
+        <p class="movie-desc">父亲去世后，三个儿子整理遗物，发现他曾消失13年的真相，竟是去给一个不相干的孩子当爸爸。</p>
+        <div class="movie-card-foot">
+            <span>剧情， 家庭</span>
+            <a href="./movie/movie-1176.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="蜂螫" data-region="美国" data-type="电影" data-year="2015" data-genre="喜剧，恐怖" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-0090.html" aria-label="观看蜂螫">
+        <span class="poster-shell">
+            <img src="./90.jpg" alt="蜂螫" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">94</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0090.html">蜂螫</a>
+        <p class="movie-meta">2015 · 美国 · 电影</p>
+        <p class="movie-desc">一场豪华花园派对因一只变异的巨型黄蜂袭击而变成血色屠杀场。</p>
+        <div class="movie-card-foot">
+            <span>喜剧，恐怖</span>
+            <a href="./movie/movie-0090.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="汝矣岛" data-region="韩国" data-type="电影" data-year="2026" data-genre="政治惊悚" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1936.html" aria-label="观看汝矣岛">
+        <span class="poster-shell">
+            <img src="./136.jpg" alt="汝矣岛" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">95</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1936.html">汝矣岛</a>
+        <p class="movie-meta">2026 · 韩国 · 电影</p>
+        <p class="movie-desc">一个落魄记者发现汝矣岛即将发生一场针对国会的神秘袭击，而所有人都不相信他。</p>
+        <div class="movie-card-foot">
+            <span>政治惊悚</span>
+            <a href="./movie/movie-1936.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="野性的冬天" data-region="中国大陆 / 法国" data-type="电影" data-year="2025" data-genre="剧情 / 冒险" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0850.html" aria-label="观看野性的冬天">
+        <span class="poster-shell">
+            <img src="./100.jpg" alt="野性的冬天" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">96</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0850.html">野性的冬天</a>
+        <p class="movie-meta">2025 · 中国大陆 / 法国 · 电影</p>
+        <p class="movie-desc">一位城市女科学家深入大兴安岭，与一头被狼群遗弃的孤狼在暴雪中相依求生。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 冒险</span>
+            <a href="./movie/movie-0850.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="埃及王子" data-region="美国" data-type="电影" data-year="2025" data-genre="动作 / 奇幻 / 冒险" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-0307.html" aria-label="观看埃及王子">
+        <span class="poster-shell">
+            <img src="./7.jpg" alt="埃及王子" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">97</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0307.html">埃及王子</a>
+        <p class="movie-meta">2025 · 美国 · 电影</p>
+        <p class="movie-desc">古埃及王子在得知自己是预言中的救世主后，必须逃离王宫，对抗拥有神力的兄长。</p>
+        <div class="movie-card-foot">
+            <span>动作 / 奇幻 / 冒险</span>
+            <a href="./movie/movie-0307.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="会议谩舞" data-region="日本" data-type="电影" data-year="2024" data-genre="剧情 / 职场 / 喜剧" data-category="喜剧家庭">
+    <a class="poster-link" href="./movie/movie-1393.html" aria-label="观看会议谩舞">
+        <span class="poster-shell">
+            <img src="./43.jpg" alt="会议谩舞" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">98</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1393.html">会议谩舞</a>
+        <p class="movie-meta">2024 · 日本 · 电影</p>
+        <p class="movie-desc">一名惧怕开会发言的社畜发现，只要他在会议上跳起尴尬的舞蹈，就能神奇地说服任何客户。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 职场 / 喜剧</span>
+            <a href="./movie/movie-1393.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="如果麦子消失" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="科幻, 剧情" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1610.html" aria-label="观看如果麦子消失">
+        <span class="poster-shell">
+            <img src="./110.jpg" alt="如果麦子消失" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">99</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1610.html">如果麦子消失</a>
+        <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+        <p class="movie-desc">全球麦子开始凭空消失，唯一知晓真相的农学家却选择了沉默。</p>
+        <div class="movie-card-foot">
+            <span>科幻, 剧情</span>
+            <a href="./movie/movie-1610.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="诊间的身景" data-region="日本" data-type="电影" data-year="2024" data-genre="剧情、伦理、医疗" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-1067.html" aria-label="观看诊间的身景">
+        <span class="poster-shell">
+            <img src="./17.jpg" alt="诊间的身景" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">100</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1067.html">诊间的身景</a>
+        <p class="movie-meta">2024 · 日本 · 电影</p>
+        <p class="movie-desc">一位整形女医生在手术台上修复着女性的身体，却修复不了自己被父权凝视割裂的一生。</p>
+        <div class="movie-card-foot">
+            <span>剧情、伦理、医疗</span>
+            <a href="./movie/movie-1067.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="火线第一季" data-region="美国" data-type="剧集" data-year="2022" data-genre="剧情 / 动作 / 罪案" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0524.html" aria-label="观看火线第一季">
+        <span class="poster-shell">
+            <img src="./74.jpg" alt="火线第一季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">101</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0524.html">火线第一季</a>
+        <p class="movie-meta">2022 · 美国 · 剧集</p>
+        <p class="movie-desc">巴尔的摩缉毒组用一个菜鸟警察做卧底，没想到他比毒贩更像毒贩。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 动作 / 罪案</span>
+            <a href="./movie/movie-0524.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="案发现场2" data-region="中国大陆" data-type="剧集" data-year="2028" data-genre="悬疑 / 犯罪" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0198.html" aria-label="观看案发现场2">
+        <span class="poster-shell">
+            <img src="./48.jpg" alt="案发现场2" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">102</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0198.html">案发现场2</a>
+        <p class="movie-meta">2028 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">一个拥有“联觉”能力、能看见声音颜色的天才法医，与一个不信鬼神的刑警队长联手侦破连环命案。</p>
+        <div class="movie-card-foot">
+            <span>悬疑 / 犯罪</span>
+            <a href="./movie/movie-0198.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="前路粤语" data-region="中国香港" data-type="电影" data-year="2026" data-genre="剧情" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1827.html" aria-label="观看前路粤语">
+        <span class="poster-shell">
+            <img src="./27.jpg" alt="前路粤语" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">103</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1827.html">前路粤语</a>
+        <p class="movie-meta">2026 · 中国香港 · 电影</p>
+        <p class="movie-desc">两个欠债的落魄兄弟，捡到一部藏着黑帮洗钱密码的旧手机。</p>
+        <div class="movie-card-foot">
+            <span>剧情</span>
+            <a href="./movie/movie-1827.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="乱世美人" data-region="中国" data-type="电视剧" data-year="2025" data-genre="年代爱情传奇" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-0741.html" aria-label="观看乱世美人">
+        <span class="poster-shell">
+            <img src="./141.jpg" alt="乱世美人" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">104</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0741.html">乱世美人</a>
+        <p class="movie-meta">2025 · 中国 · 电视剧</p>
+        <p class="movie-desc">上海滩舞女沈知意，在军阀混战与帮派倾轧中，凭借智慧与美貌成为一代商业女王。</p>
+        <div class="movie-card-foot">
+            <span>年代爱情传奇</span>
+            <a href="./movie/movie-0741.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="阿索的故事" data-region="中国香港" data-type="电影" data-year="2023" data-genre="剧情 / 运动 / 励志" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1284.html" aria-label="观看阿索的故事">
+        <span class="poster-shell">
+            <img src="./84.jpg" alt="阿索的故事" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">105</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1284.html">阿索的故事</a>
+        <p class="movie-meta">2023 · 中国香港 · 电影</p>
+        <p class="movie-desc">菜市场鱼贩阿索白天杀鱼晚上练拳，三十八岁她决定去打职业赛。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 运动 / 励志</span>
+            <a href="./movie/movie-1284.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="维也纳之舞" data-region="奥地利" data-type="电影" data-year="2027" data-genre="爱情, 音乐" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1501.html" aria-label="观看维也纳之舞">
+        <span class="poster-shell">
+            <img src="./1.jpg" alt="维也纳之舞" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">106</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1501.html">维也纳之舞</a>
+        <p class="movie-meta">2027 · 奥地利 · 电影</p>
+        <p class="movie-desc">一名叙利亚难民与一位维也纳老太太在舞厅跳了一夜，改变了彼此的一生。</p>
+        <div class="movie-card-foot">
+            <span>爱情, 音乐</span>
+            <a href="./movie/movie-1501.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="血洒万花团" data-region="中国香港" data-type="Movie" data-year="2025" data-genre="动作，武侠，悬疑" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0415.html" aria-label="观看血洒万花团">
+        <span class="poster-shell">
+            <img src="./115.jpg" alt="血洒万花团" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">107</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0415.html">血洒万花团</a>
+        <p class="movie-meta">2025 · 中国香港 · Movie</p>
+        <p class="movie-desc">民国年间，一个全部由妙龄女子组成的戏班“万花团”连续刺杀高官，台下看客叫好，台上血溅三尺。</p>
+        <div class="movie-card-foot">
+            <span>动作，武侠，悬疑</span>
+            <a href="./movie/movie-0415.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="红尘欲望" data-region="中国香港" data-type="电影" data-year="2024" data-genre="剧情 / 情色 / 伦理" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0958.html" aria-label="观看红尘欲望">
+        <span class="poster-shell">
+            <img src="./58.jpg" alt="红尘欲望" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">108</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0958.html">红尘欲望</a>
+        <p class="movie-meta">2024 · 中国香港 · 电影</p>
+        <p class="movie-desc">三个看似毫无交集的中年人，被同一张古老的春宫图牵扯进欲望的深渊。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 情色 / 伦理</span>
+            <a href="./movie/movie-0958.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="屈原" data-region="中国大陆" data-type="电影" data-year="2026" data-genre="历史 / 传记" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0632.html" aria-label="观看屈原">
+        <span class="poster-shell">
+            <img src="./32.jpg" alt="屈原" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">109</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0632.html">屈原</a>
+        <p class="movie-meta">2026 · 中国大陆 · 电影</p>
+        <p class="movie-desc">他被君王放逐，却用诗歌创造了一个比楚国更永恒的国度；投江不是绝望，是最后一场政治行为艺术。</p>
+        <div class="movie-card-foot">
+            <span>历史 / 传记</span>
+            <a href="./movie/movie-0632.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="禽兽超人之无奸不摧" data-region="日本" data-type="电影" data-year="2024" data-genre="动画， 动作， 科幻" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1718.html" aria-label="观看禽兽超人之无奸不摧">
+        <span class="poster-shell">
+            <img src="./68.jpg" alt="禽兽超人之无奸不摧" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">110</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1718.html">禽兽超人之无奸不摧</a>
+        <p class="movie-meta">2024 · 日本 · 电影</p>
+        <p class="movie-desc">一个变异为半人半兽的保安，决心用自己的丑陋身躯，打爆所有虚伪的超级英雄。</p>
+        <div class="movie-card-foot">
+            <span>动画， 动作， 科幻</span>
+            <a href="./movie/movie-1718.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="宇宙小子第一季" data-region="美国" data-type="剧集" data-year="2024" data-genre="动画 / 科幻" data-category="奇幻科幻">
+    <a class="poster-link" href="./movie/movie-1175.html" aria-label="观看宇宙小子第一季">
+        <span class="poster-shell">
+            <img src="./125.jpg" alt="宇宙小子第一季" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">111</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1175.html">宇宙小子第一季</a>
+        <p class="movie-meta">2024 · 美国 · 剧集</p>
+        <p class="movie-desc">一个住在拖车公园的12岁男孩发现，自己的亲生父亲竟是全宇宙最通缉的星际逃犯。</p>
+        <div class="movie-card-foot">
+            <span>动画 / 科幻</span>
+            <a href="./movie/movie-1175.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="永不让步" data-region="美国" data-type="电影" data-year="2012" data-genre="剧情 / 传记 / 运动" data-category="古装历史">
+    <a class="poster-link" href="./movie/movie-0089.html" aria-label="观看永不让步">
+        <span class="poster-shell">
+            <img src="./89.jpg" alt="永不让步" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">112</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0089.html">永不让步</a>
+        <p class="movie-meta">2012 · 美国 · 电影</p>
+        <p class="movie-desc">一位被家暴逼入绝境的单亲妈妈，为了夺回儿子的抚养权，站上了满是血与汗的拳击台。</p>
+        <div class="movie-card-foot">
+            <span>剧情 / 传记 / 运动</span>
+            <a href="./movie/movie-0089.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="激情燃烧的岁月3" data-region="中国大陆" data-type="剧集" data-year="2026" data-genre="剧情, 历史, 家庭" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1935.html" aria-label="观看激情燃烧的岁月3">
+        <span class="poster-shell">
+            <img src="./135.jpg" alt="激情燃烧的岁月3" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">113</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1935.html">激情燃烧的岁月3</a>
+        <p class="movie-meta">2026 · 中国大陆 · 剧集</p>
+        <p class="movie-desc">抗美援朝老兵的90后孙子拒绝躺平，选择参军，祖孙两代军人的价值观在新时代激烈碰撞。</p>
+        <div class="movie-card-foot">
+            <span>剧情, 历史, 家庭</span>
+            <a href="./movie/movie-1935.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="天劫余生" data-region="美国" data-type="电影" data-year="2026" data-genre="灾难 / 生存" data-category="动作冒险">
+    <a class="poster-link" href="./movie/movie-0849.html" aria-label="观看天劫余生">
+        <span class="poster-shell">
+            <img src="./99.jpg" alt="天劫余生" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">114</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0849.html">天劫余生</a>
+        <p class="movie-meta">2026 · 美国 · 电影</p>
+        <p class="movie-desc">一场突如其来的地磁暴摧毁全球电网，一群被困在南极科考站的科学家必须在天劫降临前找到最后的生路。</p>
+        <div class="movie-card-foot">
+            <span>灾难 / 生存</span>
+            <a href="./movie/movie-0849.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="盐谷时日" data-region="日本" data-type="电影" data-year="2025" data-genre="剧情， 家庭" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1392.html" aria-label="观看盐谷时日">
+        <span class="poster-shell">
+            <img src="./42.jpg" alt="盐谷时日" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">115</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1392.html">盐谷时日</a>
+        <p class="movie-meta">2025 · 日本 · 电影</p>
+        <p class="movie-desc">一名疲惫的东京上班族继承了去世祖母在偏远盐谷地区的破旧老宅，在那里，她通过腌制时令蔬果找回了生活本该有的味道。</p>
+        <div class="movie-card-foot">
+            <span>剧情， 家庭</span>
+            <a href="./movie/movie-1392.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="粉红蝴蝶" data-region="韩国" data-type="电影" data-year="2026" data-genre="悬疑, 惊悚, 犯罪" data-category="悬疑犯罪">
+    <a class="poster-link" href="./movie/movie-0523.html" aria-label="观看粉红蝴蝶">
+        <span class="poster-shell">
+            <img src="./73.jpg" alt="粉红蝴蝶" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">116</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0523.html">粉红蝴蝶</a>
+        <p class="movie-meta">2026 · 韩国 · 电影</p>
+        <p class="movie-desc">首尔出现“粉红蝴蝶”连环杀手，只杀性侵前科犯，警方发现她的下一个目标竟是20年前的自己。</p>
+        <div class="movie-card-foot">
+            <span>悬疑, 惊悚, 犯罪</span>
+            <a href="./movie/movie-0523.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="绯闻" data-region="韩国" data-type="剧集" data-year="2025" data-genre="剧情，爱情，悬疑" data-category="国产剧集">
+    <a class="poster-link" href="./movie/movie-1066.html" aria-label="观看绯闻">
+        <span class="poster-shell">
+            <img src="./16.jpg" alt="绯闻" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">117</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1066.html">绯闻</a>
+        <p class="movie-meta">2025 · 韩国 · 剧集</p>
+        <p class="movie-desc">一位狗仔记者与顶流男星达成协议，用一场假绯闻来掩盖一个更大的真相，谁知两人双双沦陷。</p>
+        <div class="movie-card-foot">
+            <span>剧情，爱情，悬疑</span>
+            <a href="./movie/movie-1066.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="大刀王五" data-region="中国大陆" data-type="电影" data-year="1985" data-genre="动作, 历史, 武侠" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-0306.html" aria-label="观看大刀王五">
+        <span class="poster-shell">
+            <img src="./6.jpg" alt="大刀王五" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">118</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-0306.html">大刀王五</a>
+        <p class="movie-meta">1985 · 中国大陆 · 电影</p>
+        <p class="movie-desc">京城第一刀客王五，为保护变法失败的谭嗣同出逃，单枪匹马劫囚车，血洒菜市口。</p>
+        <div class="movie-card-foot">
+            <span>动作, 历史, 武侠</span>
+            <a href="./movie/movie-0306.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="这个夏天有异性" data-region="中国香港" data-type="电影" data-year="2002" data-genre="爱情 / 喜剧" data-category="华语电影">
+    <a class="poster-link" href="./movie/movie-1609.html" aria-label="观看这个夏天有异性">
+        <span class="poster-shell">
+            <img src="./109.jpg" alt="这个夏天有异性" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">119</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1609.html">这个夏天有异性</a>
+        <p class="movie-meta">2002 · 中国香港 · 电影</p>
+        <p class="movie-desc">两个死党发誓要在夏天结束前脱单，却爱上了同一个男孩。</p>
+        <div class="movie-card-foot">
+            <span>爱情 / 喜剧</span>
+            <a href="./movie/movie-1609.html">立即观看</a>
+        </div>
+    </div>
+</article>
+<article class="movie-card" data-title="萨赫之恋" data-region="奥地利" data-type="电影" data-year="2025" data-genre="爱情 / 美食 / 剧情" data-category="爱情青春">
+    <a class="poster-link" href="./movie/movie-1826.html" aria-label="观看萨赫之恋">
+        <span class="poster-shell">
+            <img src="./26.jpg" alt="萨赫之恋" loading="lazy" onerror="this.classList.add('image-missing')">
+            <span class="rank-badge">120</span>
+            <span class="poster-shine"></span>
+        </span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie/movie-1826.html">萨赫之恋</a>
+        <p class="movie-meta">2025 · 奥地利 · 电影</p>
+        <p class="movie-desc">为了重现一块失落百年的萨赫蛋糕配方，两个甜品师从对手变成了爱人。</p>
+        <div class="movie-card-foot">
+            <span>爱情 / 美食 / 剧情</span>
+            <a href="./movie/movie-1826.html">立即观看</a>
+        </div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <strong>国产影视</strong>
+            <p>本站提供国产影视高清在线观看服务，所有内容免费观看。汇聚热播国产剧、最新院线电影及经典影片，资源丰富，更新及时，播放流畅稳定。</p>
+        </div>
+        <div class="footer-links">
+            <a href="./index.html">首页</a> <a href="./categories.html">分类</a> <a href="./ranking.html">热播榜</a> <a href="./search.html">影片检索</a>
+        </div>
+    </div>
+</footer>
+<script defer src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
